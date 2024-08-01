@@ -1,59 +1,56 @@
-
 * {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
 
-.header {
-    background-color: #1F2937;
-    display: flex;
-    align-items: center;
-    color: white;
-    justify-content: space-evenly;
-    padding: 16px;
-}
-
-.header .logo{
-    font-size: 24px;
-}
-
+.header,
 .top,
 .footer {
     background-color: #1F2937;
 }
 
-ul {
+.header .contain,
+.top .contain {
     display: flex;
-    justify-content: space-evenly;
-    padding: 16px;
-    gap: 16px;
-    margin-left: auto;
-    list-style: none;
-    color: white
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 100px; 
 }
 
-a{
+.header {
+    color: white;
+    padding: 16px 0;
+}
+
+.header .logo {
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    color: white;
+}
+
+a {
     text-decoration: none;
     font-size: 18px;
-    color: lightgray
+    color: lightgray;
 }
 
 .top {
-
-    display: flex;
-    padding: 16px;
     color: white;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    padding: 52px;
-
+    padding: 52px 0;
 }
 
 .top img {
     width: 400px;
     height: auto;
+    margin-left: 52px;
 }
 
 .left-side-top {
@@ -62,19 +59,19 @@ a{
     gap: 8px;
 }
 
-.left-side-top h2{
+.left-side-top h2 {
     font-size: 48px;
 }
 
-.left-side-top p{
+.left-side-top p {
     font-size: 18px;
 }
 
-.left-side-top button{
+.left-side-top button {
     font-size: 24px;
 }
 
-.middle img{
+.middle img {
     width: 100px;
     height: 100px;
     border-radius: 8px;
@@ -92,9 +89,10 @@ h6 {
     color: #1F2937;
     text-align: right;
     margin-right: 50px;
+    margin-bottom: 50px;
 }
 
-.albums{
+.albums {
     max-width: 200px;
     border-radius: 8px;
 }
@@ -102,7 +100,6 @@ h6 {
 .middle {
     text-align: center;
     margin: 52px;
-    
 }
 
 .container {
@@ -118,13 +115,12 @@ h6 {
     margin: 32px;
 }
 
-.quote{
+.quote {
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 32px;
-
 }
 
 .bottom {
@@ -134,18 +130,17 @@ h6 {
     padding: 52px;
 }
 
-.modal{
+.modal {
     background: #3882F6;
     width: 1000px;
     height: 140px;
     border-radius: 10px;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
     display: flex;
     padding: 28px;
     color: white;
     align-items: center;
-    gap: 16px
-    
+    gap: 16px;
 }
 
 .footer {
@@ -156,13 +151,11 @@ h6 {
 }
 
 .lytext {
-    margin: 100px;
     font-size: 36px;
     font-weight: bolder;
     flex: 1;
     color: #1F2937;
     padding: 10px 10px 0px 10px;
-    margin: 0;
 }
 
 button {
@@ -174,21 +167,24 @@ button {
     border: solid #3882F6;
 }
 
-.modal button{
+.modal button {
     border: solid white;
     min-width: 80px;
 }
 
 .lyric {
-    max-width: 800px;
+    max-width: 500px;
     position: relative;
+    margin-top: 50px;
 }
 
 .contain {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 52px;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 100px;
 }
 
 .top button {
@@ -196,6 +192,3 @@ button {
     font-size: 16px;
     text-align: center;
 }
-
-
-
